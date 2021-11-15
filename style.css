@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2? family = Noto + Serif & display = swap');
+
+@font-face {
+    font-family: 'vampiro';
+    src: url('fontes/Vampire\ Wars.otf') format('opentype');
+    font-weight: normal;
+
+   
+}
+
+@font-face {
+    font-family: 'evil';
+    src: url('fontes/fonte-evildead/EVILDEAD.TTF') format('opentype'); 
+}
+
+:root {--fonte-padrao:Arial,Verdana,Helvetica,sans-serif;
+       --fonte-destaque:'Bebas Neve', cursive;
+       --fonte-vampiro: 'vampiro';
+       --fonte-evil: 'evil';}
+
+* { 
+    margin: 0px;
+    padding: 0px;}
+
+
+body {
+    background-image: url(imagens/926726.jpg) ;
+    font-family: var(--fonte-padrao);
+    
+    }
+
+/*cabecalho=============================*/
+header {background-color: black;
+background-attachment: fixed;
+color: white;
+padding: 30px;
+}
+
+header h1 {font-family: var(--fonte-vampiro);}
+header h2 {font-family:var(--fonte-vampiro);}
+
+header  nav { 
+             font-size: 1.0em;    
+             text-align: right;
+            position: relative;
+            bottom: 29px;}
+
+header nav > a {   
+          text-decoration: none;
+          color: white;
+          margin: 10px;
+          border-radius: 4px;}
+
+header nav > a:hover {background-color: white;
+                color: black;}
+
+div.linkdasrede {margin-left: -14px;}          
+
+div.linkdasrede img {width: 15px;
+                     padding: 6px;
+                     margin: 0px 0px 0px 5px;} 
+
+header div > a {background-color:black;}
+            
+
+
+
+
+
+
+
+
+
+
+/*formatação de Link Geral*/
+
+
+
+
+    
+
+
+/*=======================================*/
+
+
+/*navegando pelas plataformas===================*/
+ nav#menu1 {background-color: white;
+            padding: 20px;
+            text-align: center;}
+ nav a {background-color: #595959 ;
+        text-decoration: none;
+        color: white;
+        margin: 20px;
+        padding: 8px;
+        border-radius: 5px;}
+
+ nav#menu1 a:hover {background-color: black;}
+ 
+
+/*==============================================*/     
+
+main {
+    min-width:300px;
+    max-width: 1000px;
+    background-color: white;
+    border: black;
+    border-radius: 5px;
+    padding: 25px;
+    margin: auto;
+    box-shadow: 10px 8px 8px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+    main h1 {background-color: black;
+             color: white;
+             padding: 10px;
+             border-radius: 5px 5px 0px 0px;
+             margin: -26px;
+             margin-bottom: 60px;
+             font-family:var(--fonte-padrao) ;
+             }
+    main h1#principal {padding: -10px -10px 0px -10px;}
+
+main article {box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+              padding: 0px 8px 0px 8px;}
+
+main article h1 {background-color: black;
+                 margin: -10px -10px 0px -10px;
+                 margin-bottom: 10px;}
+main article p {text-align: justify;}  
+
+
+
+main img {width: 45%;
+          display: block;
+          margin: auto;
+          margin-top: 10px;
+          margin-bottom: 10px;}
