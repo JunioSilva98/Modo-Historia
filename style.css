@@ -140,3 +140,9 @@ main img {width: 45%;
           margin: auto;
           margin-top: 10px;
           margin-bottom: 10px;}
+
+/*formulário de inscrever-se*/        
+
+div#formalário {background-color: black;
+                color: white;
+                width: 60px;}
