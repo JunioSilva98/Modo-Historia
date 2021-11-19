@@ -27,7 +27,8 @@
 
 
 body {
-    background-image: url(imagens/926726.jpg) ;
+    background-image: url(imagens/Arcane.jpg) ;
+    background-repeat: no-repeat;
     font-family: var(--fonte-padrao);
     
     }
