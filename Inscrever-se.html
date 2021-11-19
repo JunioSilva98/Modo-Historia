@@ -7,49 +7,59 @@
     <title>Inscrever-se</title>
     <style>
 
-    * {margin: 0px;
-       padding: 0px;}
+    
 
         body{background-image: linear-gradient(to right,black, white);}
         
         
-        div#formulário {background-color: black;
+        div#formulário {background-image: url(imagens/Arcane-p.jpg);
+                        
                         color: white;
                         width: 500px;
                         height: 400px;
-                        padding: 10px;
-                        
-                        
-                        margin:auto;
-                        margin-top: 185px;
+                        padding: 0px;
+                        margin: auto;
+                        margin-top:84px ;
                         border-radius: 4px;
+                        
                         }
-
-        p { text-align: left;
+                        
+        
+        p { color: black;
+            text-align: left;
             margin: 15px;}   
             
-        img {position: relative;
-            right: 10px;}    
+        img {width: 50px;
+             border-radius: 0px 0px 5px 0px;}    
+
+             body > img { width: 100px;
+                         position: relative;
+                         left: 20px;
+                         top: 10px;
+                         border-radius: 20%;}
                         
     </style>
 </head>
 <body>
+    <img src="imagens/Captura de Tela (46).png" alt="">
     <div id="formulário">
-
-        <img src="imagens/Captura de Tela (46).png" alt="" width="40px">
-        <form name="formcontato" action="" method="get"></form>
-        <p>Nome: <br> <input type="text" name="Nome"> <br>
         
-           Sobrenome: <br> <input type="text" name="Nome">
-        </p>
-        <p>
-            Senha: <br> <input type="password" name="Senha">
-        </p>
-        <p>
-        
-        Sexo: <br>  <input type="radio" name="sexo" value="Masculino"> Masculino <br>
-                    <input type="radio" name="sexo" value="Feminino"> feminino <br>
-        </p>
+        <a href="paginainicial.html"><img src="imagens/Captura de Tela (46).png" alt=""></a>
+        <div id="form">
+            <form name="formcontato" action="" method="get"></form>
+            <p>Nome: <br> <input type="text" name="Nome"> <br>
+            
+               Sobrenome: <br> <input type="text" name="Nome">
+            </p>
+            <p>
+                Senha: <br> <input type="password" name="Senha">
+            </p>
+            <p>
+            
+            Sexo: <br>  <input type="radio" name="sexo" value="Masculino"> Masculino <br>
+                        <input type="radio" name="sexo" value="Feminino"> feminino <br>
+            </p>
+        </div>
     </div>
 </body>
 </html>

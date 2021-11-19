@@ -105,7 +105,7 @@ header div > a {background-color:black;}
 main {
     min-width:300px;
     max-width: 1000px;
-    background-color: white;
+    background-color: rgba(70, 64, 64, 0.61);
     border: black;
     border-radius: 5px;
     padding: 25px;
@@ -118,14 +118,16 @@ main {
     main h1 {background-color: black;
              color: white;
              padding: 10px;
-             border-radius: 5px 5px 0px 0px;
+             border-radius: 6px 6px 0px 0px;
              margin: -26px;
              margin-bottom: 60px;
              font-family:var(--fonte-padrao) ;
              }
     main h1#principal {padding: -10px -10px 0px -10px;}
 
-main article {box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+main article {background-color: white;
+              border-radius: 6px 6px 0px 0px;
+              box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
               padding: 0px 8px 0px 8px;}
 
 main article h1 {background-color: black;
