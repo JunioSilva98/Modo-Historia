@@ -59,8 +59,12 @@ header nav > a {
 header nav > a:hover {background-color: white;
                 color: black;}
 
-div.linkdasrede {margin-left: -14px;}          
-
+div.linkdasrede {
+    display: inline-block;
+    margin-left: -14px;
+    position: relative;
+    right: auto;}          
+    
 div.linkdasrede img {width: 15px;
                      padding: 6px;
                      margin: 0px 0px 0px 5px;} 
