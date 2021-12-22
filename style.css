@@ -116,7 +116,7 @@ main {
     border: black;
     border-radius: 5px;
     padding: 25px;
-    margin: 10px;
+    margin: auto;
     box-shadow: 10px 8px 8px black;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -136,13 +136,15 @@ main {
 
 main article {
               
-              width: 500px;
+              margin: auto;
+              width: 800px;
               background-color: white;
               border-radius: 6px 6px 0px 0px;
               box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
               padding: 0px 8px 0px 8px;}
 
 main article h1 {
+    
     background-color: black;
     color: white;
     border-radius: 5px 5px 0px 0px;
@@ -162,12 +164,13 @@ main img {width: 45%;
           margin-bottom: 10px;}
 
 main aside {
+    margin: auto;
     background-color: white;
-    margin-top: 25px;
+    
     box-shadow: 5px 5px 5px rgb(0 0 0 / 45%);
     border-radius: 5px 5px 0px 0px;
     padding: 0px 8px 0px 8px;
-    width: 500px;
+    width: 800px;
     text-align: justify;}
 
 main aside h1 {
