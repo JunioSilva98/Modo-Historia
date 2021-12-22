@@ -109,75 +109,24 @@ header div > a {background-color:black;}
 /*==============================================*/     
 
 main {
-    display: block;
-    min-width:300px;
-    max-width: 1000px;
-    background-color: rgba(70, 64, 64, 0.61);
-    border: black;
-    border-radius: 5px;
-    padding: 25px;
-    margin: auto;
-    box-shadow: 10px 8px 8px black;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    }
-
-    main  h1#principal {
-             
-             background-color: black;
-             color: white;
-             padding: 10px;
-             border-radius: 6px 6px 0px 0px;
-             margin: -26px;
-             margin-bottom: 60px;
-             font-family:var(--fonte-padrao) ;
-             }
-    main h1#principal {padding: -10px -10px 0px -10px;}
-
-main article {
-              
-              margin: auto;
-              width: 800px;
-              background-color: white;
-              border-radius: 6px 6px 0px 0px;
-              box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
-              padding: 0px 8px 0px 8px;}
-
-main article h1 {
-    
-    background-color: black;
-    color: white;
-    border-radius: 5px 5px 0px 0px;
-    padding: 10px;
-    margin-right: -8px;
-    margin-left: -8px;
+    width: 1000px;
+    margin: 10px 0px 0px 0px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    background-position: center center;
     
 }
-main article p {text-align: justify;}  
 
-
-
-main img {width: 45%;
-          display: block;
-          margin: auto;
-          margin-top: 10px;
-          margin-bottom: 10px;}
-
-main aside {
-    margin: auto;
-    background-color: white;
-    
-    box-shadow: 5px 5px 5px rgb(0 0 0 / 45%);
-    border-radius: 5px 5px 0px 0px;
-    padding: 0px 8px 0px 8px;
-    width: 800px;
-    text-align: justify;}
-
-main aside h1 {
-    background-color: black;
+main h1 {
     color: white;
-    border-radius: 5px 5px 0px 0px;
+    background-color: black;
     padding: 10px;
-    margin-right: -8px;
-    margin-left: -8px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+main p {
+    color: black;
+    padding: 10px;
+    text-align: justify;
 }
