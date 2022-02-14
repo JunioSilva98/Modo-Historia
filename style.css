@@ -31,23 +31,28 @@ body {
     background-attachment: fixed;
     
     font-family: var(--fonte-padrao);
+    min-width: 320px ;
     
     }
 
 /*cabecalho=============================*/
-header {background-color: black;
-background-attachment: fixed;
-color: white;
-padding: 30px;
+header {
+    
+    background-color: black;
+    background-attachment: fixed;
+    color: white;
+    padding: 30px;
 }
 
 header h1 {font-family: var(--fonte-vampiro);}
 header h2 {font-family:var(--fonte-vampiro);}
 
 header  nav { 
+            
              font-size: 1.0em;    
              text-align: right;
-            position: relative;
+             
+            
             bottom: 29px;}
 
 header nav > a {   
@@ -136,7 +141,8 @@ main {
 
 main article {
               
-              width: 500px;
+              max-width: 500px;
+              min-width: 300px;
               background-color: white;
               border-radius: 6px 6px 0px 0px;
               box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
@@ -151,7 +157,10 @@ main article h1 {
     margin-left: -8px;
     
 }
-main article p {text-align: justify;}  
+main article p {
+    text-align: justify;
+    padding: 20px;
+}  
 
 
 
@@ -177,4 +186,9 @@ main aside h1 {
     padding: 10px;
     margin-right: -8px;
     margin-left: -8px;
+}
+
+footer {
+    background-color: black;
+    color: white;
 }
