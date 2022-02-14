@@ -47,22 +47,38 @@ header {
 header h1 {font-family: var(--fonte-vampiro);}
 header h2 {font-family:var(--fonte-vampiro);}
 
-header  nav { 
-            
+header  nav#menu1 { 
+             max-width: 20px;
              font-size: 1.0em;    
              text-align: right;
              
             
             bottom: 29px;}
 
-header nav > a {   
+header nav#menu1 > a {  
+          min-width: 320px; 
           text-decoration: none;
           color: white;
           margin: 10px;
           border-radius: 4px;}
 
-header nav > a:hover {background-color: white;
+header nav#menu1 > a:hover {background-color: white;
                 color: black;}
+
+header nav#menu {
+    font-size: 1.0em;    
+    text-align: right;
+    
+   
+   bottom: 29px;
+}
+
+header nav#menu {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    border-radius: 4px;
+}
 
 div.linkdasrede {
     display: inline-block;
