@@ -57,17 +57,32 @@ header h2 {
 }
 
 
-nav {
-    margin: 0px;
-    padding: 15px;
-    background-color: black;
+
+
+
+
+header div img {
+    margin: 12px 0px 0px 8px;width: 19px;
+
+    
 }
 
 
+nav {
+    
+    padding: 15px;
+    background-color: black;
+}
+    
+
+
 nav > a {
-    color: white; 
+    color: white;
     padding: 10px;
     text-decoration: none;
+    margin-left: 16px;
+    font-family: var(--fonte-evil);
+    
    
     
 }
