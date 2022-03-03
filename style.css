@@ -42,92 +42,63 @@ header {
     background-attachment: fixed;
     color: white;
     padding: 30px;
-}
-
-header h1 {font-family: var(--fonte-vampiro);}
-header h2 {font-family:var(--fonte-vampiro);}
-
-header  nav#menu1 { 
-             max-width: 20px;
-             font-size: 1.0em;    
-             text-align: right;
-             
-            
-            bottom: 29px;}
-
-header nav#menu1 > a {  
-          min-width: 320px; 
-          text-decoration: none;
-          color: white;
-          margin: 10px;
-          border-radius: 4px;}
-
-header nav#menu1 > a:hover {background-color: white;
-                color: black;}
-
-header nav#menu {
-    font-size: 1.0em;    
-    text-align: right;
+    min-width: 150px;
     
-   
-   bottom: 29px;
 }
 
-header nav#menu {
+header h1 {
+    font-family: var(--fonte-vampiro);
+    
+}
+
+header h2 {
+    font-family: var(--fonte-vampiro);
+
+}
+
+
+nav {
+    margin: 0px;
+    padding: 15px;
+    background-color: black;
+}
+
+
+nav > a {
+    color: white; 
+    padding: 10px;
     text-decoration: none;
-    color: white;
-    margin: 10px;
-    border-radius: 4px;
+   
+    
+}
+    
+
+
+nav > a:hover {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 3px;
 }
 
-div.linkdasrede {
-    display: inline-block;
-    margin-left: -14px;
-    position: relative;
-    right: auto;}          
-    
-div.linkdasrede img {width: 15px;
-                     padding: 6px;
-                     margin: 0px 0px 0px 5px;} 
-
-header div > a {background-color:black;}
-            
-
-
-
-
-
-
-
-
-
-
-/*formatação de Link Geral*/
-
-
 
 
     
 
 
-/*=======================================*/
 
 
-/*navegando pelas plataformas===================*/
- nav#menu1 {background-color: white;
-            padding: 20px;
-            text-align: center;}
- nav a {background-color: #595959 ;
-        text-decoration: none;
-        color: white;
-        margin: 20px;
-        padding: 8px;
-        border-radius: 5px;}
 
- nav#menu1 a:hover {background-color: black;}
+
+
+
+
+
+
+
+
+
+
  
-
-/*==============================================*/     
 
 main {
     display: block;
