@@ -69,9 +69,12 @@ header div img {
 
 
 nav {
-    
+    display: inline-block;
+    position: relative;
+    left: 1100px;
+    top: -50px;
     padding: 15px;
-    background-color: black;
+    
 }
     
 
@@ -79,6 +82,7 @@ nav {
 nav > a {
     color: white;
     padding: 10px;
+    
     text-decoration: none;
     margin-left: 16px;
     font-family: var(--fonte-evil);
@@ -117,8 +121,6 @@ nav > a:hover {
 
 main {
     display: block;
-    min-width:300px;
-    max-width: 1000px;
     background-color: rgba(70, 64, 64, 0.61);
     border: black;
     border-radius: 5px;
