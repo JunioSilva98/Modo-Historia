@@ -102,25 +102,7 @@ nav > a:hover {
 
 
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-main {
+    main {
     display: block;
     background-color: rgba(70, 64, 64, 0.61);
     border: black;
@@ -191,9 +173,39 @@ main aside h1 {
     padding: 10px;
     margin-right: -8px;
     margin-left: -8px;
+
 }
+/*Seção dowloads*/
+section {
+    
+    background-color: white;
+    margin: 20px 0px 0px 0px;
+    padding: 0px 5px 1px 8px;
+    max-width: 500px;
+    min-height: 150px;
+    border-radius: 5px 2px 0px 0px;
+}
+
+section h1 {
+    background-color: black;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+    padding: 12px 7px 7px 11px;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+section   a { 
+    background-color: black;
+    text-decoration: none;
+    
+    
+}
+
+/*Seção dowloads*/
 
 footer {
     background-color: black;
     color: white;
+    
 }
