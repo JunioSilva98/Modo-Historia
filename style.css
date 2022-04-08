@@ -26,11 +26,11 @@
     padding: 0px;
     }
 
-    a {
+   /* a {
         
-        text-decoration: none;
+      
     }
-
+*/
    
 body {
     background-image: url(imagens/cropped-1920-1080-1192178.jpg);
@@ -74,7 +74,7 @@ header div img {
 }
 
 
-header > nav {
+header > nav#navpg {
     display: inline-block;
     padding: 15px;
     margin: 18px 5px 0px 0px;
@@ -86,7 +86,7 @@ header > nav {
     
 
 
-nav > a {
+nav#navpg > a {
     color: white;
     padding: 10px;
     
@@ -100,7 +100,7 @@ nav > a {
     
 
 
-nav > a:hover {
+nav#navpg > a:hover {
     background-color: aliceblue;
     color: black;
     border-radius: 3px;
@@ -137,7 +137,7 @@ main article {
               max-width: 800px;
               min-width: 300px;
               background-color: white;
-              margin: auto;
+              
               border-radius: 6px 6px 0px 0px;
               box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
               padding: 0px 8px 0px 8px;}
@@ -184,22 +184,20 @@ main aside h1 {
 }
 /*Seção dowloads*/
 section {
-    
+   
     background-color: white;
     margin: 20px 0px 0px 0px;
     padding: 0px 5px 1px 8px;
     max-width: 500px;
     min-height: 150px;
-    border-radius: 5px 2px 0px 0px;
+    border-radius: 11px 11px 0px
 }
 
 section h1 {
     background-color: black;
-    color: white;
-    border-radius: 5px 5px 0px 0px;
-    padding: 12px 7px 7px 11px;
-    margin-right: -8px;
-    margin-left: -8px;
+    margin: 0px -5px 0px -8px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 4px;
 }
 
 section h1 > a { 
@@ -207,10 +205,31 @@ section h1 > a {
     text-decoration: none;
     }
 
-section > a {
+section nav#dowlinks > a {
     margin: 5px 0px 0px auto;
     
 }
+section nav#dowlinks > a:link {
+    background-color: #000000;
+    margin: 3px;
+    padding: 5px;
+    color:#ffffff;
+    text-decoration:none;
+  }
+  section nav#dowlinks > a:visited {
+    color:#999999;
+    text-decoration:none;
+  }
+  section nav#dowlinks > a:hover {
+    color:#000000;
+    text-decoration:none;
+  }
+  section nav#dowlinks > a:active {
+    
+    text-decoration:none;
+    background-color:#1a195a;
+  }
+
 
 /*Seção dowloads*/
 
