@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-
+/*=========Configurações gerais==============================================================*/
 @import url('https://fonts.googleapis.com/css2? family = Noto + Serif & display = swap');
 
 @font-face {
@@ -23,9 +23,15 @@
 
 * { 
     margin: 0px;
-    padding: 0px;}
+    padding: 0px;
+    }
 
+    a {
+        
+        text-decoration: none;
+    }
 
+   
 body {
     background-image: url(imagens/cropped-1920-1080-1192178.jpg);
     background-attachment: fixed;
@@ -34,7 +40,7 @@ body {
     min-width: 320px ;
     
     }
-
+/*==================================================================================*/
 /*cabecalho=============================*/
 header {
     
@@ -128,9 +134,10 @@ nav > a:hover {
 
 main article {
               
-              max-width: 500px;
+              max-width: 800px;
               min-width: 300px;
               background-color: white;
+              margin: auto;
               border-radius: 6px 6px 0px 0px;
               box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
               padding: 0px 8px 0px 8px;}
@@ -195,10 +202,13 @@ section h1 {
     margin-left: -8px;
 }
 
-section   a { 
-    background-color: black;
+section h1 > a { 
+    color: white;
     text-decoration: none;
-    
+    }
+
+section > a {
+    margin: 5px 0px 0px auto;
     
 }
 
